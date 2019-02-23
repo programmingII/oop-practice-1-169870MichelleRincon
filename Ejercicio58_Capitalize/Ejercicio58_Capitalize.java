@@ -17,7 +17,7 @@ class Ejercicio58{
 		String mayus = ""; //Se inicializa una variable mayus de tipo cadena 
 
 		while(linea.hasNext()){ //Revisa de token en token y vuelve a iniciar cada que encuenta que sigue otro token
-			String letter = linea.next(); Con el metodo .next se guardara en la variable letter el token siguiente
+			String letter = linea.next(); //Con el metodo .next se guardara en la variable letter el token siguiente
 //De la clase Character se utiliza el metodo toUpperCase se convierte en mayuscula, con el metodo .charAt de la clase String devuelve el valor de letter a su posicion y con el metodo substring regresa una nueva cadena que es parte de la cadena letter
 			mayus = mayus + Character.toUpperCase(letter.charAt(0))+letter.substring(1)+" ";
 		}
